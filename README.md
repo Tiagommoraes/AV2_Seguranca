@@ -8,13 +8,13 @@ O projeto está totalmente conteinerizado com Docker, preparado para monitoramen
 
 A aplicação está deployada na plataforma Render e pode ser acessada através da seguinte URL base:
 
-**`https://prova-api-gleminhos.onrender.com`**
+**`https://github.com/Tiagommoraes/AV2_Seguranca`**
 
 *(Nota: A API pode demorar alguns segundos para "acordar" na primeira requisição devido ao plano gratuito da plataforma Render.)*
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Java 21**
+- **Java 17**
 - **Spring Boot 3.x**
 - **Spring Security 6.x:** Para autenticação e autorização.
 - **JWT (JSON Web Token):** Para gerenciamento de sessões stateless, com a biblioteca `java-jwt` da Auth0.
@@ -29,7 +29,7 @@ A aplicação está deployada na plataforma Render e pode ser acessada através 
 
 ## 📋 Pré-requisitos para Rodar Localmente
 
-- Java JDK 21 ou superior.
+- Java JDK 17 ou superior.
 - Apache Maven 3.8 ou superior.
 
 ## ⚙️ Como Rodar o Projeto Localmente
